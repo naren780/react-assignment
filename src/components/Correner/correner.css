@@ -1,0 +1,36 @@
+
+.corrner-div {
+    position: relative;
+    width: 50%;
+    max-width:100%;
+    height: auto;
+    margin: auto;
+    min-width: 500px;
+    padding: 1%;
+  }
+  .corrner-div:after {
+    display: block;
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    border-bottom: 10px solid red;
+    border-right: 10px solid blue;
+  }
+  #span:before {
+    display: block;
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    border-top: 10px solid blue;
+    border-left: 10px solid red;
+  }
+  .conatainer-correner{
+    margin: 2% 5%;
+  }
+  

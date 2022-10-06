@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.emcaCard-div{
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 3% 19%;
+}
+/* card-diversity */
+
+
+/* resources */
+
+
+
+/* correner-section */
+
+
+
+/* cards-section2 */
+.card-section{
+  box-shadow: 25px 0 15px -9px #888;
+  text-align: center;
+  width: 251px;
+}
+
+/* userdetails */
+.details-main{
+  display: flex;
+  background-image: linear-gradient(red, blue);
+  color: #fff;
+  align-items: center;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  min-width: 500px;
+}
+.userdetais-img{
+  padding: 0% 7%;
+  border-radius: 10%;
+}
+.detalis-second-div{
+  margin: 0% 2%;
+}
+
+
+/* Cards-section1 */
+
+.row-Cardsec1::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+[class*="col-3"] {
+  float: left;
+  padding: 15px;
+}
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.row-Cardsec1 {
+  
+  background: rgba(237, 241, 244, 0.66);
+  border-radius: 15px 15px;
+  margin: 0% 5%;
+  box-shadow: 2px -3px 2px rgba(0, 0, 0, 0.17),
+              -2px 2px 2px rgba(0, 0, 0, 0.165),
+              2px 2px 2px rgba(0, 0, 0, 0.16),
+              2px 2px 15px #00000036;
+  max-height:450px;
+}
+
+
+
+
+/* For desktop: */
+.col-1  {width: 8.33%;}
+.col-2  {width: 16.66%;}
+.col-3  {width: 25%;}
+.col-4  {width: 33.33%;}
+.col-5  {width: 41.66%;}
+.col-6  {width: 50%;}
+.col-7  {width: 58.33%;}
+.col-8  {width: 66.66%;}
+.col-9  {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and ( max-width:1500px ) {
+
+  /* For tabs phones: */
+  [class*="col-3"] {
+      width: 50%;
+      text-align: left;   
+  }
+  .col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+  .row-Cardsec1{
+      max-width: max-content;
+      max-height: max-content;
+  }
+  /* .right{margin: 22% auto 0%;} */
+  .smalldiv2{
+      position: relative;
+      top: -16px;
+      padding: 4px 9px;
+      left: -3px;
+  }
+  .menu{
+    margin: 2% auto 0%
+  }
+  
+}
+
+@media only screen and (max-width:786px) {
+
+  /* For mobile phones: */
+  [class*="col-3"] {
+      width: 100%;
+      text-align: center;    
+  }
+  .hr-div{
+     display:none;
+
+
+  }
+  
+  .right{
+      display: flex;
+      justify-content: center;
+      margin: 20% auto 0;
+      max-width: 450px;
+  }
+  .menu{
+      background: rgba(237, 241, 244, 0.66);
+      margin: 20% auto 0;
+      border-radius: 10px;
+      box-shadow: 2px 2px 9px 1px #0000003b;
+      text-align: left;
+      max-width: 400px;
+      max-height: 400px;
+     
+  }
+  .row-Cardsec1{
+      background-color: transparent;
+      box-shadow: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
+ 
+  
+}
+
+/* div */
+.pink ,.blue{
+
+  max-width: fit-content;
+  height:470px;
+  border-radius: 4%;
+  text-align: left;
+  font-family: sans-serif;
+  padding: 3%;
+  line-height: 1rem;
+  box-shadow: 2px 2px 9px 1px #0000003b;
+  position: relative;
+  top:-24px;
+
+}
+
+.blue {
+
+  background-color: rgb(220, 163, 201);
+
+}
+.pink{
+ background-color:  rgb(184 206 209 / 94%) ;
+  
+}
+.smalldiv2 {
+  border-radius: 20px 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  /* padding: 8% 1%; */
+  color: white;
+  position: relative;
+  top: -27px;
+  text-align: center;
+  font-size: 18px;
+  width: 271px;
+  height: 62px;
+  background-image: linear-gradient(to bottom, red, blue);
+
+}
+
+/* horizontal line */
+.hr-div{
+  position: relative;
+  top: 93px;
+  width:90%;
+  height: 93px;
+  margin: 0% 5%;
+   box-shadow: 0px 1px 4px #00000052;
+  border-radius: 14px;
+  }
+  .ul-li li{
+    padding: 2% 0%;
+  }
+
+/* Emec section userpic2 */
+.emec-para{
+  padding: 7% 0%;
+  line-height: 2.1em;
+  color: #fff;
+
+}
+.userpic2-img{
+    top: -32px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: -36px;
+}
+.emec-para1{
+  padding: 11% 0%;
+  font-size: 18px;
+ font-weight: normal;
+ 
+}
+
+
+
+/* Arch section */

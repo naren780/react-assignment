@@ -1,0 +1,41 @@
+.emca-main{
+    display: flex;
+      justify-content: space-evenly;;
+
+}
+.card-emca{
+    position: relative;
+    width: 350px;
+    margin:1% 0%;
+    border: none;
+    height: 126px;
+    
+    
+}
+.card-img{
+    width: 60px;
+    position: absolute;
+    right: 17px;
+    bottom: 34px;
+}
+.body-emca{
+    /* height: 140px; */
+   
+    padding: 1% 5%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px #00000061
+}
+    
+
+.accoedion{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.main-emca{
+    display:flex
+}
+#emca-h1{
+    color: rgb(134, 71, 163)
+}
